@@ -5,6 +5,12 @@
 [![license: lgpl 2.1](https://img.shields.io/badge/license-lgpl%202.1-1182c2)](https://github.com/mwoco/github-hello-world/)
 [![contributions: welcome](https://img.shields.io/badge/contributions-welcome-4dc71f)](https://github.com/mwoco/github-hello-world/)
 
-Simple IP test application that allows sending and receiving short text messages (supports UDP/TCP, IPv4/IPv6, DNS resolution). Useful to check router, firewall or server settings, for example.
+The application will listen for incoming UDP packets and TCP connections at the configured port (Rx Destination). In case of a TCP connection one incoming packet will be read and then the connection will be closed.
+
+To send a test message configure the desired destination parameters (Tx Destination) and click "Send Message". TCP timeout may take a while, if connection can not be estabished. So be patient.
 
 [![screenshot](https://raw.githubusercontent.com/mwoco/ipTest/master/README-screenshot.png)](https://github.com/mwoco/github-hello-world/)
+
+Roadmap:
+* nothing planned right now
+ 
