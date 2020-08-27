@@ -6,3 +6,5 @@
 [![contributions: welcome](https://img.shields.io/badge/contributions-welcome-4dc71f)](https://github.com/mwoco/github-hello-world/)
 
 Simple IP test application that allows sending and receiving short text messages (supports UDP/TCP, IPv4/IPv6, DNS resolution). Useful to check router, firewall or server settings, for example.
+
+[![screenshot](https://raw.githubusercontent.com/mwoco/ipTest/master/README-screenshot.png)](https://github.com/mwoco/github-hello-world/)
